@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prime App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app flex">
+      <div class="input flex">
+        <div class="selection">
+          <select id="choice" class="choice">
+            <option value="" selected></option>
+            <option value="prime">PRIME</option>
+            <option value="leapYear">LEAP YEAR</option>
+          </select>
+        </div>
+        <div class="input-text">
+          <input type="text" id="operand" placeholder="Enter number" />
+        </div>
+        <div class="">
+          <button class="btn">Check</button>
+        </div>
+      </div>
+
+      <div class="output flex">
+        <div class="output-text"></div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

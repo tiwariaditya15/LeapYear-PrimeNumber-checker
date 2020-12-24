@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #293241;
+    --secondary-color: #ee6c4d;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: var(--primary-color);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input .flex {
+    flex-wrap: wrap;
+  }
+  
+  .choice {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  option {
+    font-size: 1rem;
+  }
+  
+  .input-text {
+    padding: 3rem 2rem;
+  }
+  .input-text input {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .input-text input:focus {
+  }
+  
+  button {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  select:hover {
+    transform: scale(1.1);
+  }
+  
+  .output {
+    max-width: 40%;
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+  }
+  
+  .output-text {
+    color: var(--primary-color);
+  }
+  
+  .output .flex {
+    justify-content: center;
+  }
+  
