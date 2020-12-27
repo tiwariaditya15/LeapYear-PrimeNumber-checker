@@ -5,7 +5,7 @@ const choice = document.querySelector(".choice");
 
 const primeCheck = () => {
   let primeFlag = true;
-  for (let i = 2; i < input.value / 2; i++) {
+  for (let i = 2; i <= input.value / 2; i++) {
     if (input.value % i === 0) {
       primeFlag = false;
       break;
