@@ -2,6 +2,13 @@
     --primary-color: #293241;
     --secondary-color: #ee6c4d;
   }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     font-family: sans-serif;
     background-color: var(--primary-color);
@@ -13,6 +20,13 @@
     align-items: center;
   }
   
+  .banner{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    color: var(--primary-color);
+    font-size: larger;
+  }
+
   .input .flex {
     flex-wrap: wrap;
   }

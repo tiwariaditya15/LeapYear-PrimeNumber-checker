@@ -5,6 +5,10 @@ const choice = document.querySelector(".choice");
 
 const primeCheck = () => {
   let primeFlag = true;
+  if(input.value === ""){
+    output.innerText = "Enter number to check prime number.";
+    return;
+  }
   for (let i = 2; i <= input.value / 2; i++) {
     if (input.value % i === 0) {
       primeFlag = false;
@@ -20,6 +24,10 @@ const primeCheck = () => {
 
 const leapYearCheck = () => {
   const inputYear = input.value;
+  if(input.value === ""){
+    output.innerText = "Enter number to check leap year.";
+    return;
+  }
   if (inputYear % 400 === 0) {
     output.innerText = `${inputYear} is leap year.`;
   } else if (inputYear % 100 === 0) {
