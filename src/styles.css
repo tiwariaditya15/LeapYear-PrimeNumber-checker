@@ -27,6 +27,9 @@
     font-size: larger;
   }
 
+  .input{
+    margin: 5rem auto;
+  }
   .input .flex {
     flex-wrap: wrap;
   }
@@ -76,8 +79,9 @@
   
   .output {
     max-width: 40%;
-    padding: 2rem;
-    margin: 1rem auto;
+    height: 80%;
+    padding: 5rem;
+    margin: 10rem auto;
     background-color: var(--secondary-color);
     border-radius: 0.5rem;
   }
