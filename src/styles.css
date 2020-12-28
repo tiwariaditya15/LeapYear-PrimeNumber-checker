@@ -24,7 +24,7 @@
     background-color: var(--secondary-color);
     padding: 2rem;
     color: var(--primary-color);
-    font-size: larger;
+    font-size: 60px;
   }
 
   .input{
@@ -39,10 +39,11 @@
     border-radius: 1rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    font-size: 22px;
   }
   
   option {
-    font-size: 1rem;
+    /* font-size: 25px; */
   }
   
   .input-text {
@@ -54,6 +55,7 @@
     padding: 1rem;
     border: none;
     border-radius: 0.5rem;
+    font-size: 22px;
   }
   
   .input-text input:focus {
@@ -66,7 +68,7 @@
     padding: 1rem;
     border-radius: 0.5rem;
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: 22px;
   }
   
   button:hover {
@@ -81,13 +83,14 @@
     max-width: 40%;
     height: 80%;
     padding: 5rem;
-    margin: 10rem auto;
+    margin: 8rem auto;
     background-color: var(--secondary-color);
     border-radius: 0.5rem;
   }
   
   .output-text {
     color: var(--primary-color);
+    font-size: 30px;
   }
   
   .output .flex {
